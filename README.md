@@ -23,6 +23,7 @@ var _cc = require("classcat")
 
 # Install
 `yarn add -D ts-transform-classcat`
+`yarn add classcat`
 
 ## General usage
 ```javascript
