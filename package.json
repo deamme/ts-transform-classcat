@@ -1,0 +1,33 @@
+{
+  "name": "ts-transform-classcat",
+  "version": "0.0.1",
+  "description": "Compile time classcat transformation for JSX",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "typescript",
+    "transform",
+    "classcat",
+    "jsx"
+  ],
+  "scripts": {
+    "test": "rimraf tests/temp && ts-node tests/index.ts",
+    "build": "tsc",
+    "overwrite-references": "ts-node tests/overwriteReferences.ts",
+    "prepublishOnly": "rimraf dist && tsc"
+  },
+  "repository": "https://github.com/deamme/ts-transform-classcat.git",
+  "author": "Deam Hansen",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "fs-extra": "^5.0.0",
+    "glob": "^7.1.2",
+    "rimraf": "^2.6.2",
+    "ts-node": "^4.1.0",
+    "ts-transform-inferno": "^0.7.0"
+  }
+}
