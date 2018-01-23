@@ -1,4 +1,4 @@
-# ts-transform-css-modules-next
+# ts-transform-classcat
 Compile time [classcat](https://github.com/JorgeBucaran/classcat) transformation for JSX.
 
 Transpiles:
