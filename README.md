@@ -1,4 +1,7 @@
 # ts-transform-classcat
+[![travis](https://travis-ci.org/deamme/ts-transform-classcat.svg?branch=master)](https://travis-ci.org/deamme/ts-transform-classcat)
+[![npm version](https://badge.fury.io/js/ts-transform-classcat.svg)](https://badge.fury.io/js/ts-transform-classcat)
+
 Compile time [classcat](https://github.com/JorgeBucaran/classcat) transformation for JSX.
 
 Transpiles:
