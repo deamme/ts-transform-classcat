@@ -32,7 +32,7 @@ var _cc = require("classcat")
 ```javascript
 const transformClasscat = require('ts-transform-classcat').default;
 
-transformInferno()
+transformClasscat()
 ```
 
 ## Usage examples
