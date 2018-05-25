@@ -1,6 +1,6 @@
 {
   "name": "ts-transform-classcat",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Compile time classcat transformation for JSX",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
