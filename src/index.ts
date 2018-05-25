@@ -42,7 +42,7 @@ export default () => {
       }
 
       properties.forEach((prop: any) => {
-        const propName = prop.name.text
+        const propName = prop.name ? prop.name.text : ''
         if (propName === 'class' || propName === 'className') {
           if (prop.initializer.kind === ts.SyntaxKind.JsxExpression) {
             prop.initializer.expression = ts.createCall(
