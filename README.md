@@ -25,7 +25,7 @@ var _cc = require("classcat")
 ```
 
 # Install
-`yarn add -D ts-transform-classcat`
+`yarn add -D ts-transform-classcat typescript`
 `yarn add classcat`
 
 ## General usage
