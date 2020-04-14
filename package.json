@@ -1,6 +1,6 @@
 {
   "name": "ts-transform-classcat",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Compile time classcat transformation for JSX",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,10 +20,10 @@
   "author": "Deam Hansen",
   "license": "MIT",
   "peerDependencies": {
-    "typescript": ">=2.6.2"
+    "typescript": ">=3.0.0"
   },
   "devDependencies": {
-    "typescript": "^2.6.2",
+    "typescript": "^3.0.0",
     "@types/node": "^8.5.2",
     "fs-extra": "^5.0.0",
     "glob": "^7.1.2",

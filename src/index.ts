@@ -36,7 +36,7 @@ export default () => {
 
       if (children) {
         properties = (node as any).openingElement.attributes.properties
-        children.forEach(child => visitor(child))
+        children.forEach((child) => visitor(child))
       } else {
         properties = (node as ts.JsxSelfClosingElement).attributes.properties
       }

@@ -1,6 +1,6 @@
 import * as ts from 'typescript'
 
-export default function(sourceFile: ts.SourceFile, importMap: Object) {
+export default function (sourceFile: ts.SourceFile, importMap: Object) {
   const props = []
 
   for (let key in importMap) {
@@ -17,10 +17,13 @@ export default function(sourceFile: ts.SourceFile, importMap: Object) {
       ts.createVariableDeclaration(
         '_cc',
         undefined,
-        ts.createCall(
-          ts.createIdentifier('require'),
-          [],
-          [ts.createLiteral('classcat')],
+        ts.createPropertyAccess(
+          ts.createCall(
+            ts.createIdentifier('require'),
+            [],
+            [ts.createLiteral('classcat')],
+          ),
+          'default',
         ),
       ),
     ]),

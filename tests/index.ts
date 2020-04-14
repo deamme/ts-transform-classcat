@@ -4,7 +4,6 @@ import transform from '../src'
 import { resolve, basename } from 'path'
 import { readFileSync, writeFileSync } from 'fs'
 import { mkdirpSync } from 'fs-extra'
-import transformInferno from 'ts-transform-inferno'
 
 const config = {
   experimentalDecorators: true,
